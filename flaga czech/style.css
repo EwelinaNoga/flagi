@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.white {
+    background-color: #fff;
+    width: 600px;
+    height: 250px;
+    border: 1px black solid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+
+.red {
+    background-color: red;
+    width: 600px;
+    height: 125px;
+    margin-top: 62px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.blue {
+    width: 0;
+    height: 0;
+    border-left: 250px solid blue;
+    border-top: 125px solid transparent;
+    border-bottom: 125px solid transparent; 
+    top: -100%;
+    left: 0;
+    position: absolute;
+}
+
+

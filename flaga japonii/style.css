@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.flag {
+    background-color: #fff;
+    width: 600px;
+    height: 250px;
+    border: 1px black solid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.wheel {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px red solid;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
